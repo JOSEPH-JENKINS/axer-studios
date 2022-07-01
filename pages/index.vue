@@ -1,0 +1,65 @@
+<template>
+  <LocomotiveScroll
+    ref="scroller"
+    :getted-options="{
+      offset: ['30%', 0],
+      direction: 'vertical',
+      smooth: true,
+      getSpeed: true,
+      lerp: 0.1
+    }" class="bg-black text-white pb-4">
+    <main class="w-screen">
+      <section class="w-full h-screen relative bg-[url('~/assets/hero.jpg')] bg-cover bg-center px-12">
+        <Nav />
+        <div class="absolute sm:bottom-12 bottom-24 sm:left-12 left-0 sm:px-0 px-9 sm:w-2/3 w-full text-white">
+          <h1 class="font-bold text-4xl sm:text-5xl lg:text-7xl mb-4">
+            <span>Digital Product Design and Development Agency</span>
+          </h1>
+          <p class="sm:w-1/2 w-full">
+            <span>
+              Axer Studios is a digital product design and
+              development agency working with
+              ambitious companies to craft tailor-made
+              brands and digital experiences.
+            </span>
+          </p>
+        </div>
+        <h1 class="absolute bottom-12 right-12 text-white"><a href="mailto:hey@axerstudios.com">hey@axerstudios.com</a></h1>
+      </section>
+      <section class="w-full pt-36">
+        <div class="px-12 sm:px-28 relative">
+          <h1 class="font-bold text-4xl sm:text-5xl lg:text-8xl mb-24">
+            <span>Featured</span>
+          </h1>
+          <p class="sm:w-1/2 lg:w-2/5 sm:mb-24 ml-auto font-sans text-xl">
+            Our transparency showcased in these projects in our goal to pursue empathy in our client works.
+          </p>
+          <div class="w-full mb-20 mt-20 sm:mt-0">
+            <div class="card w-full sm:w-1/2 h-[85vh] relative">
+              <div class="absolute right-0 -translate-y-8 translate-x-8 z-50">
+                <h1 class="font-bold text-2xl sm:text-4xl lg:text-6xl mb-2">Roomxix</h1>
+                <p class="font-sans text-sm">Fashion Agency Site</p>
+              </div>
+              <img src="~/assets/raamin-ka-uR51HXLO7G0-unsplash.jpg" class="w-full h-full object-cover " alt="">
+            </div>
+          </div>
+          <div class="w-full">
+            <div class="card w-full sm:w-1/2 ml-auto h-[85vh] relative">
+              <div class="absolute right-0 -translate-y-8 translate-x-8 z-50">
+                <h1 class="font-bold text-2xl sm:text-4xl lg:text-6xl mb-2">NCDC Coronavirus</h1>
+                <p class="font-sans text-sm">Nigeria Covid-19 Site</p>
+              </div>
+              <img src="~/assets/diego-san-2hRHb1OGRYs-unsplash.jpg" class="w-full h-full object-cover hover:scale-75 transition ease-in-out delay-150" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </LocomotiveScroll>
+</template>
+
+<script>
+export default {
+  name: 'IndexPage'
+}
+</script>
