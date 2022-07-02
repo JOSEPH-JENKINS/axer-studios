@@ -67,7 +67,7 @@
           <img src="~/assets/alex-sh-tahjhrbznXw-unsplash.jpg" class="w-full h-full object-cover" alt="">
         </div>
         <div class="w-3/5">
-            <h1 class="font-sans text-xl text-gray-400">
+            <h1 class="font-sans text-sm sm:text-xl text-gray-400">
               We work with empathy in mind, we apply strategic and design thinking in solving these common design problems.
               We work to deliver the best we can and put in our work experience and expertise and this has caused so many instances of <span class="text-white"><b>customer retention</b></span>
               Our <span class="text-white"><b>product adoption</b></span> at the very end shows that we are here for you and your interest at large. How <span class="text-white"><b>effective</b></span> our work is cannot be 
